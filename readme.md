@@ -43,3 +43,4 @@ def showip(request):
         ip = request.session.get('ip',0)
         return render(request, {'ip': ip})
 ```
+## Happy Learning
